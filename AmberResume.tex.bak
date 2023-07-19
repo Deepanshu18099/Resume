@@ -1,0 +1,314 @@
+\documentclass[10pt]{extarticle}
+\usepackage[margin=0.1in]{geometry}
+\usepackage{romannum}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{fontawesome}
+\usepackage{tabularx, colortbl}
+\newcommand{\tabitem}{\textbullet~}
+\usepackage{bbding}
+\usepackage[autostyle=false, style=english]{csquotes}
+\MakeOuterQuote{"}
+\setlist[itemize]{noitemsep, topsep=0pt}
+\addtolength{\parskip}{-1.0mm}
+\newlist{tabitemize}{itemize}{1}
+\setlist[tabitemize]{nosep,
+                topsep= 0pt,
+                partopsep=0pt,
+                leftmargin= *,
+                label=\textbullet,
+                before=\vspace{0.1\baselineskip},
+                after=\vspace{-\baselineskip}
+                }
+\renewcommand\tabularxcolumn[1]{m{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\tcbset{
+  frame code={}
+  center title,
+  left=0pt,
+  right=0pt,
+  top=0pt,
+  bottom=0pt,
+  colback=gray!50,
+  colframe=white,
+  width=\dimexpr\textwidth\relax,
+  enlarge left by=0mm,
+  boxsep=3pt,
+  arc=0pt,outer arc=0pt,
+  }
+
+\begin{document}
+\begin{flushleft}
+
+\noindent {\huge\textbf{\sc{AMBER SINGH}}}
+\end{flushleft}
+
+% 3rd Year Undergraduate  \hfill\href{mailto:ambers21@iitk.ac.in}{{\faEnvelope} ambers21@iitk.ac.in} \(|\) \href{tel:+919870818653}{ {\faPhone} +919870818653}
+% \\Junior Undergraduate -Chemical Engineering
+% \hfill\href{https://github.com/Amber404}{{\faGithub} Ambi404} \(|\) \href{https://www.linkedin.com/in/amber-singh-252103142/}{{\faLinkedin} Amber Singh}
+\vspace{-2pt}
+{Junior Undergraduate -Chemical Engineering}
+\vspace{2pt}
+\\
+\hfill\hfill\small{ \href{mailto:ambers21@iitk.ac.in}{\faEnvelope\space{ambers21@iitk.ac.in}} \hspace{4pt}} $|$ \hspace{4pt}{\faMobile\space\fontdimen2\font=0.75ex +91 9870818653}\hspace{4pt}$|$\hspace{4pt}
+\href{https://www.linkedin.com/in/amber-singh-252103142/}{\faLinkedinSquare \space{Amber Singh}} \hspace{4pt}$|$ \hspace{4pt}\href{https://github.com/Amber404}{\faGithub \space{Ambi404}}
+
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+\vspace{-25pt}
+{\large \textbf{\begin{tcolorbox}\textsc{ACADEMIC QUALIFICATIONS}\end{tcolorbox}}}
+\vspace{-9pt}
+\begin{center}
+\begin{tabular}{|p{2.5cm}|p{6.0cm}|p{7.5cm}|p{2.8cm}|}
+\hline
+\centering{\textbf{Year}} & \centering{\textbf{Program}} & \centering{\textbf{Institute}} & \centering{\textbf{Performance}} \tabularnewline
+\hline
+\centering{2021} - Present & \centering{B.Tech.(Chemical Engineering)} & \centering{Indian Institute of Technology Kanpur} & \centering{7/10} \tabularnewline
+\hline
+\centering{2021} & \centering{Class XII (CBSE)} & \centering{Shivalik School, Agra} & \centering{90\%} \tabularnewline
+\hline
+\centering{2019} & \centering{Class X (CBSE)} & \centering{Shivalik Cambridge College, Agra} & \centering{98\%} \tabularnewline
+\hline
+\end{tabular}
+\end{center}\vspace{-3.5pt}
+{\large \textbf{\begin{tcolorbox}\textsc{ACADEMIC ACHIEVEMENTS}\end{tcolorbox}}}
+\vspace{-7pt}
+\begin{itemize}
+
+\item Cracked \textbf{KVPY} Stage 1 exam in the SA stream , organised by \textbf{IISC Bangalore} and qualified for the interview round.
+\hfill\hfill\textcolor{black!70}{\small \textit{2020}}
+\item Cleared \textbf{National Talent Seacrch Examination } stage 1  conducted by \textbf{NCERT} , Government of India.
+\hfill\hfill\textcolor{black!70}{\small \textit{2019}}
+\end{itemize}
+%\vspace{-2mm}
+
+\vspace{-20pt}
+{\large \textbf{\begin{tcolorbox}[center]\textsc{KEY PROJECTS}\end{tcolorbox}}}
+\vspace{-14pt}
+%----------Project/Workshop 1----------
+
+
+
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Full Stack Development} $|$ \textit{Association For Computing Activities, IIT Kanpur} $|$
+\href{https://github.com/Amber404/ACA_FSWD_2022}{\faGithub}\textit{}
+\hfill\hfill\textcolor{black!70}{\small \textit{May'22-Jul'22}}
+\end{tcolorbox}
+\vspace{-7pt}
+
+
+\begin{itemize}
+
+  \item Developed a dynamic web page using \textbf{HTML, CSS,} and \textbf{JavaScript}, incorporating interactive features and responsive design principles.
+ 
+ 
+  \item Implemented front-end and back-end using frameworks and libraries like \textbf{ Node.js}, and \textbf{Express.js} and used \textbf{Git CLI} for version control.
+   \item Deployed web applications on \textbf{Heroku}, integrating \textbf{MailChimp} for efficient database management and utilized \textbf{API} calls for data exchange.
+\end{itemize}
+
+\vspace{-4pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+
+\textbf{SimuTech: Machine Learning } $|$ \textit{Chemineer Society, IIT Kanpur} $|$ \href{https://github.com/Amber404/ML-CHE}{\faGithub}\textit{}
+\hfill\hfill\textcolor{black!70}{\small \textit{Dec'22-Feb'23}}
+\end{tcolorbox}
+\vspace{-7pt}
+
+\begin{itemize}
+  \item Acquired in-depth expertise in \textbf{Regression} and \textbf{Classification} techniques, including their probabilistic interpretations and modeling strategies.
+  \item Learnt about \textbf{logistic regression} and \textbf{GLMs}, while also comprehending the operational principles of \textbf{K-means clustering algorithms.}
+  \item Built Neural Networks using the \textbf{TensorFlow} framework to predict accurate results from the Air Quality data set obtained from \textbf{Kaggle.}
+
+\end{itemize}
+
+\vspace{-4pt}
+
+
+
+
+
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Number Theory And Cryptography} $|$ \textit{Stamatics, IIT Kanpur} $|$
+\href{https://github.com/Amber404/Number-Theory-Cryptography}{\faGithub}\textit{}
+\hfill\hfill\textcolor{black!70}{\small \textit{Apr'22-Jul'22}}
+\end{tcolorbox}
+
+\vspace{-7pt}
+
+\begin{itemize}
+  \item Applied Number Theory principles to cryptographic problems and  implemented related algorithms using C++ programming language.
+  \item Gained a thorough understanding of classical cryptographic techniques, including the \textbf{Caesar Cipher}, as well as advanced encryption  methods such as the \textbf{RSA} public key cryptosystem and the \textbf{Diffie-Hellman  Key} Exchange protocol, used for \textbf{secure} private key exchange.
+ 
+\end{itemize}
+\vspace{-4pt}
+
+
+
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Blast Off} $|$ \textit{Astronomy Club, Science and Technology Council, IIT Kanpur
+} $|$ \href{https://github.com/Amber404/Blast-Off}{\faGithub}\textit{}
+\hfill\hfill\textcolor{black!70}{\small \textit{Aug'22-Nov'22}}
+\end{tcolorbox}
+\vspace{-7pt}
+
+\begin{itemize}
+  \item \textbf Applied \textbf{{\href{}{Pareto Dominance}}}  to the \textbf{MOGA} modelling of the rocket to find the optimum point with maximum payload  and minimum cost.
+  \item Implemented \textbf{the Genetic Algorithm} to generate high-quality solutions to optimization and search problems concerning the rocket model.
+  \item Learnt about various propulsion systems, orbital dynamics and modeled our own rocket from scratch using \textbf{Python} and \textbf{OpenRocket}.
+  \item Compiled a detailed and \textbf{\underline{\href{https://astroclubiitk.github.io/assets/docs/projects/2022/Blast_Off/Handbook.pdf}{reproducible report}}}  and designed a captivating\textbf{{\href{https://astroclubiitk.github.io/assets/docs/projects/2022/Blast_Off/Poster.pdf} { Poster}}} on \textbf{canva},  collaborating  with other mentees.
+\end{itemize}
+
+\vspace{-4pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Bank Management System}$|$ \textit{Self Project} $|$ \href{https://github.com/Amber404/BankMangementSystem}{\faGithub}
+\hfill\hfill\textcolor{black!70}{\small \textit{Jun'23}}
+\end{tcolorbox}
+\vspace{-7pt}
+\begin{itemize}
+\item Built a Bank  Management system using \textbf{Object Oriented Programming} in C++, facilitating the creation and deletion of bank accounts.
+
+\item  Leveraged the principles of \textbf{Encapsulation,} \textbf{Inheritance}, and \textbf{file handling} to design and implement account and bank classes.
+\item Created a dynamic system incorporating the essential functionality of balance enquiry, deposit, withdrawal, and displaying all accounts.
+
+\end{itemize}
+
+\vspace{-4pt}
+\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+\textbf{Virtual Chemical Company}$|$ \textit{Course Project} $|$ \href{https://github.com/Amber404/Virtual-Chemical-Company}{\faGithub}
+\hfill\hfill\textcolor{black!70}{\small \textit{Jan'23-Apr'23}}
+\end{tcolorbox}
+\vspace{-7pt}
+\begin{itemize}
+\item Collaborated with a \textbf{14}-member team to establish a \textbf{virtual }chemical company and identify \textbf{high-value} chemicals suitable for production.
+
+
+\item Developed an extensive \textbf{{\underline{\href{https://drive.google.com/drive/folders/1VRu3LUcmlUA24VXeCF_O7jDyRVciGqLp}{EHS report}}}}, identified safety concerns and estimated the waste generation associated with the patented chemicals.
+
+\end{itemize}
+
+% \begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+% \textbf{Analysis of a Recreational Algorithm} $|$ \href{https://www.parabola.unsw.edu.au/2020-2029/volume-56-2020/issue-3/article/computational-and-mathematical-analysis-convergent}{\faFile}
+% \hfill\hfill\textcolor{black!70}{\small \textit{Feb'20-Dec'20}}
+% \end{tcolorbox}
+% \vspace{-7pt}
+% \begin{itemize}
+% \item \textbf{Algorithm}: Take any natural number, let its spelling length be next number in series. Recursively append spelling lengths of the last number.
+% \item \textbf{Hypothesis}: All such series converge to the number 4.
+% \item Computationally verified a statistical assumption about number spelling lengths varying approximately logarithmically with number magnitude.
+% \item Devised a mathematical proof, using the assumption, for the hypothesis.
+% \item \textbf{Published} in the Parabola student math journal of the School of Mathematics and Statistics, UNSW.
+% \end{itemize}
+
+\vspace{-20pt}
+\vspace{4pt}
+
+{\large \textbf{\begin{tcolorbox}\textsc{TECHNICAL SKILLS}\end{tcolorbox}}}
+\vspace{-13pt}
+\begin{center}
+\begin{tabular}{|p{4cm}|p{8.4cm}|p{6.9cm}|}
+\hline
+\textbf{Programming} & \textbf{Libraries}  & \textbf{Utilities}\\
+\hline
+C,C++,Python, JavaScript & ReactJS,Numpy,Pandas,Seaborn, Matplotlib, Scikit-Learn & MATLAB,NodeJS,Git, bash, \LaTeX \\
+\hline
+\end{tabular}
+\end{center}
+
+
+
+\vspace{-15pt}
+{\large \textbf{\begin{tcolorbox}\textsc{RELEVANT COURSES}\end{tcolorbox}}}
+\vspace{-10pt}
+\begin{comment}
+\begin{center}
+\begin{tabular}{|p{6.2cm}|p{6.7cm}|p{6.2cm}|}
+\hline
+CS779 Statistical NLP & MTH442 Time Series Analysis* &  MTH441 Linear Regression \& ANOVA *\\
+ESO207 Data Structures \& Algorithms* & MTH210 Statistical Computing & MTH208-209 Data Science Lab \\
+MSO205 Introduction to Probability Theory & MTH211 Theory of Statistics & MTH212 Elementary Stochastic Processes
+\vspace{4pt}\hspace{4pt}\hfill*(\textit{ongoing}) \\
+
+\hline
+\end{tabular}
+\end{center}
+\end{comment}
+
+\begin{center}
+\begin{tabular}{|p{5.5cm}|p{7.4cm}|p{6.9cm}|}
+\hline
+\textbf{ESC101} Fundamentals Of Computing & \textbf{MTH102} Linear Algebra and ODE & \textbf{ESO208} Computational Methods in engineering \\
+
+
+\textbf{ECO101} Introduction to Economics & \textbf{CGS401* }Introduction to Cognitive Science & \textbf{ESC201} Introduction to Electronics\\
+\textbf{ESO201} Thermodynamics & \textbf{CHE221}Chemical Engineering Thermodynamics & \textbf{CHE261} Chemical Process Industries \\
+\textbf{CHE251} Chemical Processes & \textbf{CHE211} Fluid Mechanics \& applications & \textbf{ESO205*} Nature and properties of materials \\
+\href{https://coursera.org/share/61c5efa7152c473807b3214c278bfcf5}{Supervised Machine Learning,Coursera} & \textbf{MTH101}  Real Analysis and Multivariable Calculus & 
+\vspace{4pt}\hspace{4pt}\hfill*(\textit{ongoing}) \\
+
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{-5mm}
+\space
+{\large \textbf{\begin{tcolorbox}\textsc{POSITIONS OF RESPONSIBILITY}\end{tcolorbox}}}
+
+\vspace{-16pt}
+\begin{tcolorbox}[center, width=21.1cm, colback=black!10]
+
+\textbf{Organizer, Events} $|$ \textit{Udghosh, IIT Kanpur}
+\hfill\hfill \textit{Jun'23-Present}
+\end{tcolorbox}
+\vspace{-10pt}
+\begin{center}
+% \:\begin{tabular}{ | c | L{17cm} | } 
+\begin{tabular}{|c|p{18cm}|}
+ \hline
+ \textbf{Leadership} & \tabitem Leading a team of \textbf{ 30+ undergraduates} to ensure smooth conduction of formal and informal events of the sports fest. \\
+  & \tabitem Part of a 15 member organizer team responsible to envision, plan and organize  various prefest events like Chess and E-sports.\\
+  & \tabitem Led senior executives' visits to schools, actively encouraging participation and fostering engagement.\\
+ \hline
+ \textbf{Management} & \tabitem Ensured the upkeep of the database and created \textbf{fixtures} for all participating teams in the tournament across various sports.\\
+  & \tabitem Oversaw the smooth and timely execution of both formal and informal events during the fest as well as \textbf{UNOSQ}.\\
+ \hline
+ \textbf{Impact} & \tabitem Witnessed remarkable increase in reach and \textbf{unprecedented participation} from  \textbf{450+} colleges with \textbf{100K+} footfalls.\\
+ & \tabitem Contributed an amount of \textbf{INR 5 Lac} in the budget and witnessed a participation of \textbf{4000+} participants in UNOSQ.\\
+ \hline
+\end{tabular}
+
+\vspace{-4pt}
+\end{center}
+\vspace{-8pt}
+\begin{tcolorbox}[center, width=21.1cm, colback=black!10]
+\textbf{Secretary, Creatives Wing} $|$ \textit{Outreach Cell, IIT Kanpur}
+\hfill\hfill \textit{Aug'22 - Mar'23}
+\end{tcolorbox}
+\vspace{-8pt}
+\begin{itemize}
+\item  Worked with \textbf{office of Dean of Resources \& Alumni} to act as the medium of contact between the student body  and alumni.
+\item Connected over \textbf{500+} sophomores with \textbf{200+} IIT Kanpur alumni through \textbf{"Alumni Buddy Program"} for invaluable career guidance.
+\item Coordinated effectively with the managers and organized  engaging sessions like \textbf{"Tips From The Top"} \& \textbf{"Mock-en-Joy"}, taken by alumni.
+\end{itemize}
+\vspace{-8pt}
+
+
+
+%\begin{tcolorbox}[center, width=20.7cm, colback=black!10]
+%\textbf{Student Guide} $|$ \textit{Counselling Service, IIT Kanpur}
+%\hfill\hfill \textit{Sep'22 - Present}
+%\end{tcolorbox}
+%\vspace{-8pt}
+%\begin{itemize}
+%   \item Helped as a part of a \textbf{team} to conduct a week long Orientation Session for incoming batch consisting of over \textbf{1200} students
+%   \item Assisting a group of 5 freshmen academically and emotionally, to get acclimatized with the new college environment
+
+% \end{itemize}
+
+
+\vspace{1mm}
+\medskip
+
+\end{document}

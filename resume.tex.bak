@@ -1,0 +1,15 @@
+\documentclass[10pt]{article}
+\begin{document}
+\title{circular vitae}
+\author{Myself Deepanshu}
+\maketitle
+\section{Education}
+gsfd \latex\ dfv  gfdsg
+\section{key Projects}
+\section{skills}
+\subsection{Programming languages}
+\subsection{Utilities/Frameworks}
+\subsection{Softwares}
+\section{Positions of responsiblity}
+\section{Extra Curricular}
+\end{document}
