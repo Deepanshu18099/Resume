@@ -1,0 +1,238 @@
+\documentclass[10pt,a4paper]{extarticle}
+%\documentclass[]{file}
+\usepackage[a4paper,margin = 0.3in]{geometry}
+\usepackage{romannum}
+\usepackage{mathtools} 
+\usepackage{amsmath} 
+\usepackage{fontawesome}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage[super]{nth}
+% \usepackage[usenames,dvipsnames]{xcolor}
+%...................rahul codes......................
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{color}
+\newlength\boxwid%
+\definecolor{mygrey}{rgb}{0.73, 0.73, 0.73}
+\definecolor{lgrey}{rgb}{0.9, 0.9,0.9}
+\let\oldtextbullet=\textbullet
+\def\textbullet{%
+    \settowidth{\boxwid}{\ \indent\oldtextbullet\ }%
+    \hangindent=\boxwid%
+    \oldtextbullet}
+    \usepackage{marvosym,array,amsfonts}
+\usepackage{array}              %% for adjusting column widths in table
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}     %% new column type
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}       %% new column type
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}      %% new column type
+\usepackage{hyperref}
+\setlength{\parindent}{0pt}	%% used for setting the no indentation at the beginning of the paragraph
+\usepackage{multicol}
+\newcommand{\tabitem}{\textbullet~~}
+%......................................................
+\setlist[itemize]{noitemsep, topsep=0pt}
+\addtolength{\parskip}{-1.5mm}
+\tcbset{
+    frame code={}
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!50,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=0mm,
+    boxsep=3pt,
+    arc=0pt,outer arc=0pt,
+    }
+\begin{document}
+\pagenumbering{gobble}
+\begin{flushleft}
+\noindent {\Huge\textbf{{Deepanshu}}}
+\end{flushleft}
+\vspace{0pt}
+3rd Year Undergraduate  \hfill\href{mailto:deepanshu21@iitk.ac.in}{{\faEnvelope} deepanshu21@iitk.ac.in} \(|\) \href{tel:+917082575299}{ {\faPhone} +917082575299}\\
+%\vspace{-2pt}
+Department of Computer Science and Engineering \hfill\href{https://github.com/Deepanshu18099}{{\faGithub} Deepanshu18099} \(|\) \href{https://www.linkedin.com/in/deepanshu-yadav-65a1ab223/}{{\faLinkedin} deepanshu-yadav}
+\vspace{-6pt}
+\\
+\vspace{-8pt}
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+\vspace{-18pt}
+{\large \textbf{\begin{tcolorbox}[colback=mygrey,height=6mm]\textsc{Academic Qualifications}\end{tcolorbox}}}
+\vspace{-6pt}
+\begin{center}
+\begin{tabular}{|p{2.4cm}|p{4.2cm}|p{8.5cm}|p{1.8cm}|}
+\hline
+\centering{\textbf{Year}} & \centering{\textbf{Degree/Certificate}} & \centering{\textbf{Institute}} & \textbf{CPI/$\%$}\\
+\hline
+\centering{2021} - Present & \centering{B.Tech} & \centering{Indian Institute of Technology Kanpur} & 7.0/10\\
+\hline
+\centering{2021} & \centering{CBSE(\Romannum{12})} & \centering{Yaduvanshi Shiksha Niketan, Narnaul} & 89.8$\%$\\
+\hline
+\centering{2019} & \centering{CBSE(\Romannum{10})} & \centering{Yaduvanshi Shiksha Niketan, Narnaul} & 90.6$\%$
+\\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0mm}
+{\large \textbf{\begin{tcolorbox}[colback=mygrey,height=6mm]\textsc{Scholastic Achievements}\end{tcolorbox}}}
+\vspace{-2.8mm}
+\begin{itemize}
+\item Secured \textbf{All India Rank 1040} in \textbf{JEE-Advanced 2021} among 1.4 Lakh candidates, Conducted by IIT Kharagpur.
+\item Secured \textbf{All India Rank 2204} in \textbf{JEE-Main 2021} among 10 lakh+ appeared candidates all over India.
+\item Recipient of Excellence Scholarship from \textbf{National Talent Search Examination 2019} conducted by \textbf{NCERT}.
+\item Scored \textbf{100 percentile} in \textbf{Physics} subject	 in \textbf{JEE-Main 2021} by scoring a maximum possible score 100/100.
+\item Among \textbf{State top 1\%} in \textbf{National Standard Examination In Junior Science 2018-2019} conducted by IAPT.
+\end{itemize}
+
+\medskip
+\vspace{-8mm}
+
+{\large \textbf{\begin{tcolorbox}[colback=mygrey,height=6mm]\textsc{Key Projects}\end{tcolorbox}}}
+
+\vspace{-6mm}
+{\begin{tcolorbox}[colback=lgrey,height=6mm]\textbf{
+\href{https://github.com/atulyasndrm/Starbugs}{HealthPlusPlus {\faGithub}}}
+{\(|\) CS253 Course Project}
+\hfill \textit{(Jan'23-Apr'23)}
+\end{tcolorbox}}
+\vspace{-1.8mm}
+\hspace{3mm}\textbf{Mentor}:\emph{ Prof. Indranil Saha (Computer Science and Engineering, IIT Kanpur)}
+\begin{itemize}
+\item  With a team of 10, Developed an \textbf{automated software} for \textbf{Health Center} of IITK providing its services online.
+\item Used rapid development framework \textbf{Django} for back-end and its SQL database, \textbf{HTML, CSS, JavaScript} for front-end.
+\item Executed an end-to-end development process from \textbf{SRS} and \textbf{Design} document to {implementation} of automated parts.
+\item Collaborated with another team for \textbf{Beta Testing} to identify and resolve the errors within both team’s applications
+\end{itemize}
+
+
+\vspace{-1.6mm}
+{\begin{tcolorbox}[colback=lgrey,height=6mm]\textbf{
+\href{https://github.com/Deepanshu18099/CS220-Project}{CSE-Bubble Processor {\faGithub}}}
+{\(|\) CS220 Course Project }
+\hfill \textit{(Jan'23-Apr'23)}
+\end{tcolorbox}}
+\vspace{-2mm}
+\hspace{3mm}\textbf{Mentor}:\emph{ Prof. Urbi Chatterjee (Computer Science and Engineering, IIT Kanpur)}
+\begin{itemize}
+\item Framed a \textbf{single-cycle processor}, including \textbf{Opcode} design, \textbf{data path} implementation and \textbf{control path} development.
+\item Implemented \textbf{ALU} and \textbf{Control Unit} in the top-down approach to develop different modules for different Opcodes.
+\item Utilized \textbf{MIPS-32} code for \textbf{Bubble Sort}, converting it to machine code and storing output in data-memory \textbf{VEDA}.
+\end{itemize}
+
+\vspace{-1.6mm}
+{\begin{tcolorbox}[colback=lgrey,height=6mm]\textbf{
+%Insert link here and add material to cs220
+\href{https://github.com/Deepanshu18099/Space-Travel-System.git}{Space Travel System {\faGithub}}}
+{\(|\) CS253 Course-Assignment }
+\hfill \textit{(Mar'23-Apr'23)}
+\end{tcolorbox}}
+\vspace{-3mm}
+\begin{itemize}
+\item  Implemented concepts of \textbf{Object Oriented Programming} of C++ in a Space Travel System(STS) to efficiently manage interplanetary travel, with automatic initialization of flights and assignment of commanders and astronauts to it.
+\item Utilized various \textbf{Inheritance classes}, \textbf{Virtual functions}, \textbf{Exception handling} to all classes for proper functioning.
+\item Completed all functionalities starting from registration of travelers to their space-travel tickets for respective planets.
+\end{itemize}
+
+\vspace{-1.6mm}
+{\begin{tcolorbox}[colback=lgrey,height=6mm]\textbf{
+\href{https://github.com/Deepanshu18099/Mathematical-Tools-for-Data-Science/tree/main}{Mathematical Tools for Data Science {\faGithub}}}
+{\(|\) Stamatics Society, IIT Kanpur}
+\hfill \textit{(Apr'22-Jun'22)}
+\end{tcolorbox}}
+\vspace{-3.2mm}
+\begin{itemize}
+\item Learned basics of \textbf{Numpy and Pandas} libraries for data analysis, \textbf{matplotlib} based \textbf{Seaborn} for data visualization.
+\item Applied Seaborn on a dataset of salaries of employees and visualized the trends in their Overtime benefits. 
+\end{itemize}
+
+\vspace{-1.6mm}
+{\begin{tcolorbox}[colback=lgrey,height=6mm]\textbf{
+\href{https://github.com/Deepanshu18099/ACA_FSWD_2022}{Full Stack Web Development {\faGithub}}}
+{\(|\) Association for Computing Activities (ACA) Project, IIT Kanpur}
+\hfill \textit{(Apr'22-Jun'22)}
+\end{tcolorbox}}
+\vspace{-3.2mm}
+\begin{itemize}
+\item Learned basics of web development, using \textbf{Bootstrap}, \textbf{Javascript}, and how to make \textbf{API calls} to a server on cloud.
+\item Implemented a personal \textbf{portfolio} with \textbf{user registration and authentication}, and added my details to it.
+\end{itemize}
+
+\vspace{-3mm}
+%\medskip
+%{\large \textbf{\begin{tcolorbox}\textsc{Other Projects}\end{tcolorbox}}}
+%\begin{itemize}
+
+%\end{itemize
+
+{\begin{tcolorbox}[colback=mygrey,height=6mm]\textbf{\textsc{\large Technical Skills}}\end{tcolorbox}
+}
+\begin{itemize}
+\itemsep0em
+\vspace{-3mm}
+
+\item \textbf{Programming Languages: }C, C++, Python, Javascript, HTML, CSS, SQL, Verilog HDL
+
+\item \textbf{Libraries/Utilities: } Pandas, Numpy, Django, Seaborn, ReactJS, Bash, {\LaTeX}, AutoCAD, Adobe Illustrator
+\end{itemize}
+\medskip
+{\large \textbf{\begin{tcolorbox}[colback=mygrey,height=6mm]\textsc{Positions of Responsibility}\end{tcolorbox}}}
+\vspace{-3.5mm}
+\begin{itemize}
+\item \textbf{Head, Web and App} (Udghosh, IIT Kanpur)
+\hfill\hfill(\textit{Jun'23-Present})
+\begin{itemize}
+\item Leading a \textbf{3-tier team} of 20+ developers building and maintaining platforms for the smooth conduction of festival.
+\item Made WebApps fully from Scratch using \textbf{ReactJs and GSAP} with registration of 6k+ users on the website itself.
+\item Used \textbf{Node package manager} and \textbf{Google-firebase} hosting to host the \href{https://ca.udghosh.org.in}{WebApps \faExternalLink} on the respective domains.
+%\item Helped in the \textbf{registration} of more than \textbf{800 students}, aided by other student guides
+\end{itemize}
+
+\vspace{0.5mm}
+\item \textbf{Organizer, Design \& Videography} (Udghosh, IIT Kanpur) \hfill\textit{(Aug'22-Oct'22)}
+\begin{itemize}
+\item Successfully worked with \textbf{Digital design} team for creating \textbf{UX Designs} for Website, for brochure and posters.
+\item Assisted in conducting UNOSQ with 3 tier team and subsequently increased the number of participants.
+
+\vspace{-2.5mm}
+
+%\item Acted as a link between the Placement core team, companies, and Students during the placement process.
+\end{itemize}
+\vspace{1mm}
+\end{itemize}
+\begin{tcolorbox}[colback=mygrey,height=6mm]{\textbf{\textsc{\large{Relevant Completed Courses}}}}\hfill{A*-Exceptional Performance}
+\end{tcolorbox}
+\vspace{-2mm}
+\begin{center}
+\begin{tabular}{|p{6cm}|p{6cm}|p{6cm}|}
+\hline
+Data Structure and Algorithms & Computer Organization & Introduction to Economics\textbf{*}\\
+Software Developments and Operations & Modern Cryptology & Introduction to Electronics\\
+Discrete Maths for Computer Science & Logic for Computer Science & Probability for Computer Science\\
+Fundamentals of Computing &  Linear Algebra and ODE & Algorithm-II(Ongoing)\\
+\hline
+\end{tabular}
+\end{center}
+\vspace{-3mm}
+%\medskip
+%\newpage
+%\end{itemize}
+{\large \textbf{\begin{tcolorbox}[colback=mygrey,height=6mm]\textsc{Extra-Curricular Activities}\end{tcolorbox}}}
+\begin{itemize}
+\vspace{-3.5mm}
+\item Was Academic mentor of course Phy112/115 for session 2021-22, mentoring 30 freshman students in Academic difficulties.
+\item Bagged 2nd position in \textbf{GUESS-IT-MATE} competetion organised by Finance \& Analytics Club with team of 4 students.
+\item Active participation in Inter Hall technical competition \textbf{Takneek'23}, securing overall 2nd position among other halls.
+\end{itemize}
+\end{document}
+
+\vspace{1.5mm}
+\item \textbf{Academic Mentor} (Counselling Service, IIT Kanpur)\hfill(\textit{Nov'22-Jul'23})
+\begin{itemize}
+\item Conducted \textbf{Institute level remedial classes} of Phy112/115 for 30+ freshmen and also organised wing-level session.
+\item Helped juniors in the subject by clarifying doubts and strengthening their concepts, particularly in Central Forces.
+%\item Helped in the \textbf{registration} of more than \textbf{800 students}, aided by other student guides
+\end{itemize}
